@@ -1,0 +1,48 @@
+a :link{
+    color:aqua;
+}
+a :visited{
+    color:aquamarine;
+}
+a :hover{
+    color:fuchsia;
+}
+a :active{
+    color:chartreuse
+}
+
+.style1{
+    max-width: 100%;
+    height: auto;
+}
+.style2{
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+}
+.style3{
+    border-radius: 75%;
+    max-width: 100%;
+    height: auto;
+}
+.style4{
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+[class^=class]{
+    background: #aab8ab;
+    color: #ddd0c8;
+}
+[class^=pls]{
+    background: #a08887;
+    color: #e2c6c4;
+}
+
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
+}
